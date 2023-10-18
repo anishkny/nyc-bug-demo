@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "nyc node index.js"
+  },
+  "devDependencies": {
+    "nyc": "^15.1.0"
+  }
+}
