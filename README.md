@@ -1,5 +1,7 @@
 # NYC Bug Demo
 
+See: https://github.com/istanbuljs/nyc/issues/1535
+
 ## Repro
 
 ```bash
