@@ -1,8 +1,11 @@
 {
   "scripts": {
-    "start": "nyc node index.js"
+    "start": "nyc node index.js",
+    "test": "curl -f localhost:3000",
+    "ci": "start-server-and-test 3000"
   },
   "devDependencies": {
-    "nyc": "^15.1.0"
+    "nyc": "^15.1.0",
+    "start-server-and-test": "^2.0.1"
   }
 }
